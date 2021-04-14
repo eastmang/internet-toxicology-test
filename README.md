@@ -1,27 +1,43 @@
-This project was made as a final project for STATS418.
+# Purpose
+
+---
+
+Forums and online discourse has expanded faster than moderation can keep up, and recent years have shown that hate speech
+online has real-life consequences. This work aims to reduce hate speech and other toxic behavior online with machine learning.
+The model can read text and determine if it is hateful, threatening, etc. The marked text can then either be flagged and 
+double-checked by a human or removed in an automated fashion. 
+
+# Data and Model
+
+---
+
+This work was built on data from a kaggle competition provided by Alphabet. It is a set of wikipedia comments that were
+hand-coded by humans as to if and how they were toxic. 
 
 The link to the data is: https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/data
 
-The full work can be viewed by running the flask app in the app folder. 
+The model itself uses the encoder-decoder version of the model in my thesis which can be found in https://github.com/eastmang/ucla-thesis.git
 
-If you want to see what the app looks like without running any code some sample images are stored in the "images of app" folder
-
-To run the code you will need to have the following packages installed:
- keras
- numpy
- os
- sklearn 
- pandas
- pickle
- flask  
- random
- json
- re
- string
- nltk 
- tensorflow
+Everytime that a user runs and uses the model it updates the beta model based on the inputs. The user can choose to use
+the production, or the beta model depending on their personal preference. 
 
 
+The full work can be viewed by running the flask app in the app folder.
 
-I apologize for not having them in an easy to use install format. I may update that later but at the moment that is low
-on the priority list, and I have limited time. 
+The below images are what it looks like when the user runs and walks through the app.
+
+![img_3.png](images of app/Page 1.png)
+
+![img_3.png](images of app/Page 2.png)
+
+![img_3.png](images of app/Page 3.png)
+
+![img_3.png](images of app/Page 4.png)
+
+
+# For More
+
+---
+
+There is a paper and a presentation that were made for this work. They are the two pdfs shown in the repo
+on the top-level folder, the paper should help clarify any questions left after reading this README. 

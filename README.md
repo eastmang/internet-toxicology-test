@@ -26,18 +26,18 @@ The full work can be viewed by running the flask app in the app folder.
 
 The below images are what it looks like when the user runs and walks through the app.
 
-![img_3.png](images/page1.png)
+![img_1.png](images/page1.png)
 
-![img_3.png](images/page2.png)
+![img_2.png](images/page2.png)
 
 ![img_3.png](images/page3.png)
 
-![img_3.png](images/page4.png)
+![img_4.png](images/page4.png)
 
 
 # For More
 
 ---
 
-This work has a paper and presentation that wgo along with this code. They are the two pdfs shown in the repo
+This work has a paper and presentation that go along with this code. They are the two pdfs shown in the repo
 on the top-level folder, the paper should help clarify any questions left after reading this README. 
